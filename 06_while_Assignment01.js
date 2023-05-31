@@ -73,5 +73,6 @@ while(c>=10)
     str6=str6+c+'  ';
     c=c-10;
 }
-console.table(str6);
+console.table(`- ${str6}`);
+
 
