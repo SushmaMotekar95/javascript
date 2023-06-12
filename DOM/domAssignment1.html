@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML and JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        //ypur solution code goes here
+        const mainheading=document.querySelector("h1");
+        console.log(mainheading.innerHTML);
+        const secondAdvantage=document.querySelectorAll("li");
+        console.log(secondAdvantage[1].innerHTML);
+        const advDiv=document.querySelectorAll("#advantages")
+        advDiv.forEach((element)=>{
+            console.log(element.innerHTML);
+        }) 
+</script>
+</body>
+</html>
