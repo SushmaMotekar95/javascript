@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My profile Details</title>
+    </head>
+    <body>
+        <p><h1 class="change">My Profile Details</h1></p>
+        <h2><p style="color:rgb(238, 16, 16);">Technology Stack</p></h2>
+        <ul class="list">
+            <li>HTML</li>
+            <li id="agile">Agile and JIRA</li>
+            <li>Angular or React</li>
+            <li>Oracle Database</li>
+        </ul>
+        <p><h1>My Hobbies</h1></p>
+        <a href="www.google.com">My Profile</a>
+        <p>Project Description</p>
+        <script>
+            //change color
+            const changeColor=document.querySelector('.change');
+            changeColor.style.color='blue';
+
+            //Remove element
+            const parentElement=document.querySelector('.list');
+            const childElement=document.querySelector('#agile');
+            parentElement.removeChild(childElement);
+        </script>
+    </body>
+</html>
